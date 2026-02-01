@@ -5,8 +5,6 @@ const Jason = () => {
   useGSAP(() => {
     gsap.set(".jason", { marginTop: "-80vh" });
 
-    gsap.set(".jason", { marginTop: "-80vh" });
-
     gsap
       .timeline({
         scrollTrigger: {
@@ -18,17 +16,21 @@ const Jason = () => {
       })
       .to(".first-vd", { opacity: 0, duration: 1, ease: "power1.inOut" });
 
-    gsap.to(".jason .img-box", {
-      scrollTrigger: {
-        trigger: ".jason",
-        start: "top center",
-        end: "80% center",
-        scrub: 2,
+    gsap.to(
+      ".jason .img-box",
+      {
+        scrollTrigger: {
+          trigger: ".jason",
+          start: "top center",
+          end: "80% center",
+          scrub: 2,
+        },
+        y: -300,
+        duration: 1,
+        ease: "power1.inOut",
       },
-      y: -300,
-      duration: 1,
-      ease: "power1.inOut",
-    });
+      "<",
+    );
   });
 
   return (
