@@ -1,17 +1,60 @@
-# React + Vite
+# Clone_GTAVI 🎮🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **GTA VI inspired website UI clone** built using **React + Vite** with **Tailwind CSS** for styling and **GSAP** for smooth animations.  
+This project is created for learning and practice — focusing on **modern UI**, **responsive design**, and **clean frontend code**.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://clonegtavi.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ GTA VI inspired modern UI design
+- ✅ Built with **React + Vite** (fast development & build)
+- ✅ Styled with **Tailwind CSS**
+- ✅ Smooth animations using **GSAP + @gsap/react**
+- ✅ Fully responsive design (Mobile + Desktop)
+- ✅ Clean folder structure and reusable components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Clone_GTAVI
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **GSAP** + **@gsap/react**
+- **React Responsive**
+- **JavaScript (ES6+)**
+
+---
+
+## 📦 Dependencies Used
+
+Main dependencies from `package.json`:
+
+- `react`
+- `react-dom`
+- `vite`
+- `tailwindcss`
+- `@tailwindcss/vite`
+- `gsap`
+- `@gsap/react`
+- `react-responsive`
+
+---
+
+## 📂 Project Structure
+
+```bash
+Clone_GTAVI/
+├── constants/
+├── public/
+├── src/
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
