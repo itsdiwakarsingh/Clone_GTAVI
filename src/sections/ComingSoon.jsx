@@ -3,8 +3,8 @@ const ComingSoon = () => {
     <section className="entrance-message">
       <div className="h-full col-center gap-10">
         <img src="/images/logo.webp" alt="logo" className="entrance-logo" />
-        <div className="text-wrapper">
-          <h3 className="gradient-title">
+        <div className="gradient-title text-wrapper ">
+          <h3 className="text-5xl md:text-7xl">
             Comming <br /> November 19 <br /> 2026
           </h3>
         </div>

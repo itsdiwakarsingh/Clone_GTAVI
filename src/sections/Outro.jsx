@@ -23,8 +23,8 @@ const Outro = () => {
     <section className="final-message">
       <div className="h-full col-center gap-10">
         <img src="/images/logo.webp" alt="logo" className="md:w-72 w-52" />
-        <div>
-          <h3 className="gradient-title">
+        <div className="gradient-title">
+          <h3 className="text-5xl md:text-7xl">
             Comming <br /> November 19 <br /> 2026
           </h3>
         </div>
